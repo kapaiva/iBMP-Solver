@@ -1,0 +1,12 @@
+BMP_Name,v_sqms,gravel moisture_in,gravel depth_in,soil moisture,soil depth_in,pondind depth_in
+Infiltration Basin,7.0,0.3,0,0.5,0,20.0
+Dry Well,5.0,0.3,30,0.5,0,0.0
+Infiltration Trench,7.0,0.3,12,0.5,0,3.0
+Sand Filter,6.0,0.3,0,0.5,24,0.0
+Porous Pavement,15.0,0.3,12,0.5,12,0.0
+Grassed Swale,7.0,0.3,12,0.5,24,8.0
+Vegetated Filter Strip,2.0,0.3,0,0.5,24,0.0
+Bioretention,6.0,0.3,12,0.5,24,6.0
+Rain Garden,4.0,0.3,0,0.5,24,6.0
+Tree Box,3.0,0.3,12,0.5,24,3.0
+Constructed Wetland,5.0,0.3,0,0.5,0,20.0

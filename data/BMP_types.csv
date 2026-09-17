@@ -1,0 +1,14 @@
+BMP Name,Type
+Dry Pond,Storage
+Wet Pond,Storage
+Infiltration Basin,Infiltration
+Dry Well,Infiltration
+Infiltration Trench,Infiltration
+Sand Filter,Infiltration
+Porous Pavement,Infiltration
+Grassed Swale,Infiltration
+Vegetated Filter Strip,Infiltration
+Bioretention,Infiltration
+Rain Garden,Infiltration
+Tree Box,Infiltration
+Constructed Wetland,Infiltration

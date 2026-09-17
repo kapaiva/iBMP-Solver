@@ -1,0 +1,14 @@
+BMP_Name,Construction-Cost_usdpercf,OM_Cost_usdpercf,Default_area_sqf,Default_depth_ft,Cost_reference_City,Cost_reference_Year
+Dry Pond,15.97378814,2,675,6,"New York, NY",1999
+Wet Pond,14.84173744,3,2000,6,"New York, NY",1999
+Infiltration Basin,6.24,1,675,5,"New York, NY",2016
+Dry Well,13,2,12,3,"New York, NY",2016
+Infiltration Trench,12.49,3,50,6,"New York, NY",2016
+Sand Filter,17.94,1,100,4,"New York, NY",2016
+Porous Pavement,18.07,2,100,4,"New York, NY",2016
+Grassed Swale,14,3,150,2,"New York, NY",2016
+Vegetated Filter Strip,10,1,100,4,"New York, NY",2016
+Bioretention,15.46,2,100,3,"New York, NY",2016
+Rain Garden,10,3,70,2,"New York, NY",2016
+Tree Box,9,1,50,2,"New York, NY",2016
+Constructed Wetland,8.78,2,2000,5,"New York, NY",2016
