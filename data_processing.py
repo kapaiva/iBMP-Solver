@@ -633,7 +633,7 @@ def validate_manual_subbasin_csv(df: pd.DataFrame) -> tuple[bool, str]:
 
     if missing_columns or unexpected_columns:
         message_parts: list[str] = [
-            "Manual CSV upload failed because the headers do not match the required OptiStorm template."
+            "Manual CSV upload failed because the headers do not match the required template."
         ]
 
         if missing_columns:
