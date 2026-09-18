@@ -1,8 +1,8 @@
 """Solver-matrix preparation.
 
 This module builds the internal calculation matrix used before the PuLP
-optimization model is created. It intentionally does not control the Shiny user
-interface. It collects the engineering coefficients needed by the optimizer.
+optimization model is created.
+It collects the engineering coefficients needed by the optimizer.
 
 --------------------------
 Equations differ by BMP type and target.

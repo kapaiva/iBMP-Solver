@@ -544,7 +544,7 @@ app_ui = ui.page_fluid(
                     "Source code: ",
                     ui.a(
                         "GitHub repository",
-                        href="https://github.com/kapaiva/OptiStorm", 
+                        href="https://github.com/kapaiva/iBMP-Solver/", 
                         onclick="return false;",
                     ),
                     class_="welcome-secondary",

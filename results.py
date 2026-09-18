@@ -1,7 +1,4 @@
 """Post-processing, plots, and downloads for iBMP Solver.
-
-Reported before/after values are reconstructed from solved allocation fractions
-and the coefficient matrix passed to PuLP.
 """
 from __future__ import annotations
 

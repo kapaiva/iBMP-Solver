@@ -1,14 +1,10 @@
-"""Validation and session-safe normalization for OptiStorm database packages.
+"""Validation and session-safe normalization for database packages.
 
-This module validates the eight CSV databases that define BMP properties,
-performance, co-benefits, and cost-index assumptions.  Custom user packages are
-validated in a temporary session folder and are never written over the bundled
-``data/`` directory.
+This module validates the eight CSV databases contained in the ``data/`` folder.  
+Custom user packages are validated in a temporary session folder.
 
-The validator is intentionally strict: a custom package becomes active only when
-all file-level and cross-file checks pass.  The normalized output uses UTF-8,
-canonical headers, and consistent BMP names so the existing optimization core can
-consume it without machine-specific assumptions.
+The validator logic is: a custom package becomes active only when
+all file-level and cross-file checks pass.
 """
 from __future__ import annotations
 

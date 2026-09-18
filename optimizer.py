@@ -10,7 +10,6 @@ from data_processing import SUPPORTED_PARAMETERS
 
 TARGET_COLUMNS = SUPPORTED_PARAMETERS
 
-
 @dataclass
 class OptimizationConfig:
     objective: str = "Cost Only"

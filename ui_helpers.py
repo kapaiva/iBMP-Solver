@@ -1,4 +1,4 @@
-"""Reusable Shiny UI helpers for OptiStorm."""
+"""Reusable Shiny UI helpers"""
 from typing import Any
 
 from shiny import ui
