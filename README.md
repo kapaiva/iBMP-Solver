@@ -19,18 +19,14 @@ Bundled databases live in `data/`. A custom ZIP is extracted to a temporary sess
 
 Required model databases:
 
-* `BMP\_types.csv`
-* `BMP\_Efficiencies.csv`
-* `BMP\_Cobenefits.csv`
-* `Cost\_Database.csv`
-* `decay\_rates.csv`
-* `ENR\_CCI.csv`
+* `BMP_types.csv`
+* `BMP_Efficiencies.csv`
+* `BMP_Cobenefits.csv`
+* `Cost_Database.csv`
+* `decay_rates.csv`
+* `ENR_CCI.csv`
 * `Infiltration-based-bmp.csv`
 * `Storaged-based-bmp.csv`
-
-`sample\_subbasins.csv` is only a Step 1 input template. See `DATABASE\_GUIDE.md` for the custom-database contract.
-
-`No BMP` is generated internally by the optimizer and is not a user-editable database entry.
 
 ## Run locally
 
@@ -44,11 +40,11 @@ Then open `http://127.0.0.1:8000`.
 ## Main modules
 
 * `app.py` — Shiny server/reactive workflow and application assembly
-* `ui\_pages.py` — page layouts, workflow shell, cards, and CSS
-* `ui\_helpers.py` — reusable Shiny UI builders and navigation constants
-* `data\_processing.py` — SWMM/manual-input parsing, database loading, target calculations, and co-benefit scoring
-* `database\_validation.py` — custom database validation and normalization
-* `cost\_module.py` — ENR adjustment and BMP life-cycle unit costs
-* `solver\_matrix.py` — engineering coefficients and optimization matrix preparation
+* `ui_pages.py` — page layouts, workflow shell, cards, and CSS
+* `ui_helpers.py` — reusable Shiny UI builders and navigation constants
+* `data_processing.py` — SWMM/manual-input parsing, database loading, target calculations, and co-benefit scoring
+* `database_validation.py` — custom database validation and normalization
+* `cost_module.py` — ENR adjustment and BMP life-cycle unit costs
+* `solver_matrix.py` — engineering coefficients and optimization matrix preparation
 * `optimizer.py` — PuLP allocation model
 * `results.py` — result tables, charts, Excel export, and PDF report generation
