@@ -52,6 +52,3 @@ Then open `http://127.0.0.1:8000`.
 * `solver\_matrix.py` — engineering coefficients and optimization matrix preparation
 * `optimizer.py` — PuLP allocation model
 * `results.py` — result tables, charts, Excel export, and PDF report generation
-
-The scientific/optimization logic is unchanged from the cleaned working build; Version 8 reorganizes presentation and parsing helpers so `app.py` is focused on Shiny reactive wiring.
-
