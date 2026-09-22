@@ -10,8 +10,8 @@ Shiny for Python decision-support tool for cost-effective and co-benefit-informe
 2. **BMP Preferences** — apply BMP/subbasin exclusions, pair restrictions, and implementation limits.
 3. **Scenario Targets** — define event/storm durations and reduction targets.
 4. **Cost \& Objective** — select ENR city/year, life-cycle assumptions, and optimization objective.
-5. **Run Optimization** — solve the BMP allocation model and optionally inspect the solver audit.
-6. **Results** — review tables/charts and download Excel or PDF results.
+5. **Run Optimization** — solve the BMP allocation model.
+6. **Results** — review tables/charts and download PDF results.
 
 ## Database architecture
 
