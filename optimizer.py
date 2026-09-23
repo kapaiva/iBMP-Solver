@@ -1,4 +1,4 @@
-"""PuLP model for OptiStorm BMP allocation."""
+"""Optimization model"""
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -116,7 +116,7 @@ def solve_bmp_placement_from_coefficients(
             "Required reduction": baseline - target,
         })
 
-    status_code = model.solve(pulp.PULP_CBC_CMD(msg=False, timeLimit=config.solver_time_limit_sec))
+    status_code = model.solve(pulp.COIN_CMD(msg=False, timeLimit=config.solver_time_limit_sec))
     status = pulp.LpStatus.get(status_code, "Unknown")
 
     placement_rows = []
