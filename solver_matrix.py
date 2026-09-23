@@ -2,7 +2,6 @@
 
 This module builds the internal calculation matrix used before the PuLP
 optimization model is created.
-It collects the engineering coefficients needed by the optimizer.
 
 --------------------------
 Equations differ by BMP type and target.
